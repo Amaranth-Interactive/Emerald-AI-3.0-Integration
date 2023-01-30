@@ -9,6 +9,10 @@
 /[Bb]uilds/
 /[Ll]ogs/
 /[Mm]emoryCaptures/
+/[Aa]ssets/Emerald AI/
+/[Aa]ssets/PolygonFantasyKingdom/
+/[Aa]ssets/Fantasy Sounds Bundle/
+/[Aa]ssets/Blink/
 
 # Asset meta data should only be ignored when the corresponding asset is also ignored
 !/[Aa]ssets/**/*.meta
