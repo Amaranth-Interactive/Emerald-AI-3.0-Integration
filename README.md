@@ -27,4 +27,13 @@ https://user-images.githubusercontent.com/3580918/215336285-72f7d38f-26a8-47a7-9
 
 We will have to figure out what is causing them not to see / engage with each other.
 
+### **30 January 2023**
+
+Emerald AI 3.0 is now implemented correctly. Posting 1v1 and 3v3 combat scenario videos below:
+
+
+https://user-images.githubusercontent.com/3580918/215542306-b9dc6aca-94ea-4f0e-9341-514616b03c7d.mp4
+
+
+https://user-images.githubusercontent.com/3580918/215542449-56d865ee-1976-4855-9751-30266dbf126c.mp4
 
