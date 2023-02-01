@@ -37,3 +37,12 @@ https://user-images.githubusercontent.com/3580918/215542306-b9dc6aca-94ea-4f0e-9
 
 https://user-images.githubusercontent.com/3580918/215542449-56d865ee-1976-4855-9751-30266dbf126c.mp4
 
+
+### **31 January 2023**
+
+We integrated our Hexagonia base map with Emerald AI and now the soliders obey the rules of impassable terrain (the mountains in this case) in their navigation:
+
+
+https://user-images.githubusercontent.com/3580918/215926214-90e21d2e-d858-41b5-832b-d8a2b72ec400.mp4
+
+
