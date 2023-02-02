@@ -2428,7 +2428,7 @@ GameObject:
   - component: {fileID: 863725422446755902}
   - component: {fileID: 863725422446755897}
   - component: {fileID: 863725422446755896}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: Dark Elf Variant
   m_TagString: Emerald AI
   m_Icon: {fileID: 0}
@@ -2621,8 +2621,8 @@ MonoBehaviour:
   BackingUpSecondsMax: 4
   RunAttackTimer: 0
   RunAttackSpeed: 0
-  MinMeleeAttackSpeed: 1
-  MaxMeleeAttackSpeed: 2
+  MinMeleeAttackSpeed: 0
+  MaxMeleeAttackSpeed: 0
   MinRangedAttackSpeed: 0
   MaxRangedAttackSpeed: 0
   AttackSpeed: 1
@@ -2761,6 +2761,8 @@ MonoBehaviour:
   - FactionIndex: 6
     RelationTypeRef: 0
   - FactionIndex: 7
+    RelationTypeRef: 0
+  - FactionIndex: 9
     RelationTypeRef: 0
   PlayerFaction:
   - PlayerTag: Player
@@ -2958,10 +2960,10 @@ MonoBehaviour:
   CurrentDamageAmount: 5
   DamageAmountRun: 5
   WanderRadius: 25
-  TabNumber: 6
+  TabNumber: 2
   TemperamentTabNumber: 2
   DetectionTagsTabNumber: 1
-  AnimationTabNumber: 2
+  AnimationTabNumber: 0
   SoundTabNumber: 0
   MovementTabNumber: 1
   WeaponTypeTabNumber: 0
@@ -3314,7 +3316,7 @@ Animator:
   m_GameObject: {fileID: 768915778522067029}
   m_Enabled: 1
   m_Avatar: {fileID: 9000000, guid: be73df03abf02284486d1afabcf5d4fe, type: 3}
-  m_Controller: {fileID: 9100000, guid: 621786c2594c6fa4488d5f65c954b3e0, type: 2}
+  m_Controller: {fileID: 9100000, guid: 3d5a0aba0c2c381479d2feeacdc285e0, type: 2}
   m_CullingMode: 1
   m_UpdateMode: 0
   m_ApplyRootMotion: 1

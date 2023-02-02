@@ -8622,6 +8622,119 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 4754415507506310012}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &982615058631703962
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 7178092218919182342, guid: 2dbd12c5c908c3241a8e0a8e4a189338,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.8106355
+      objectReference: {fileID: 0}
+    - target: {fileID: 7178092218919182342, guid: 2dbd12c5c908c3241a8e0a8e4a189338,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.5855512
+      objectReference: {fileID: 0}
+    - target: {fileID: 7178092218919182342, guid: 2dbd12c5c908c3241a8e0a8e4a189338,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.0000018943097
+      objectReference: {fileID: 0}
+    - target: {fileID: 7178092218919182342, guid: 2dbd12c5c908c3241a8e0a8e4a189338,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.0000013150271
+      objectReference: {fileID: 0}
+    - target: {fileID: 7178092218919182342, guid: 2dbd12c5c908c3241a8e0a8e4a189338,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -288.316
+      objectReference: {fileID: 0}
+    - target: {fileID: 7178092218919182342, guid: 2dbd12c5c908c3241a8e0a8e4a189338,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0.001
+      objectReference: {fileID: 0}
+    - target: {fileID: 7178092218919182342, guid: 2dbd12c5c908c3241a8e0a8e4a189338,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0.001
+      objectReference: {fileID: 0}
+    - target: {fileID: 7178092219012339586, guid: 2dbd12c5c908c3241a8e0a8e4a189338,
+        type: 3}
+      propertyPath: EmeraldTag
+      value: Emerald AI
+      objectReference: {fileID: 0}
+    - target: {fileID: 7178092219019671391, guid: 2dbd12c5c908c3241a8e0a8e4a189338,
+        type: 3}
+      propertyPath: m_Name
+      value: Rogue Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 7178092219019998327, guid: 2dbd12c5c908c3241a8e0a8e4a189338,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 7178092219019998327, guid: 2dbd12c5c908c3241a8e0a8e4a189338,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -21.26
+      objectReference: {fileID: 0}
+    - target: {fileID: 7178092219019998327, guid: 2dbd12c5c908c3241a8e0a8e4a189338,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.27
+      objectReference: {fileID: 0}
+    - target: {fileID: 7178092219019998327, guid: 2dbd12c5c908c3241a8e0a8e4a189338,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -27.27
+      objectReference: {fileID: 0}
+    - target: {fileID: 7178092219019998327, guid: 2dbd12c5c908c3241a8e0a8e4a189338,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7178092219019998327, guid: 2dbd12c5c908c3241a8e0a8e4a189338,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7178092219019998327, guid: 2dbd12c5c908c3241a8e0a8e4a189338,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7178092219019998327, guid: 2dbd12c5c908c3241a8e0a8e4a189338,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7178092219019998327, guid: 2dbd12c5c908c3241a8e0a8e4a189338,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7178092219019998327, guid: 2dbd12c5c908c3241a8e0a8e4a189338,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7178092219019998327, guid: 2dbd12c5c908c3241a8e0a8e4a189338,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 2dbd12c5c908c3241a8e0a8e4a189338, type: 3}
 --- !u!1001 &1249310951372871755
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8693,7 +8806,7 @@ PrefabInstance:
     - target: {fileID: 1249310951068784434, guid: 670774c48bfd0a14bb625c922cc36d06,
         type: 3}
       propertyPath: TabNumber
-      value: 6
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 1249310951068784434, guid: 670774c48bfd0a14bb625c922cc36d06,
         type: 3}
@@ -8744,7 +8857,7 @@ PrefabInstance:
     - target: {fileID: 1249310951068784434, guid: 670774c48bfd0a14bb625c922cc36d06,
         type: 3}
       propertyPath: FactionsAndTagTabNumber
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1249310951068784434, guid: 670774c48bfd0a14bb625c922cc36d06,
         type: 3}
@@ -8754,7 +8867,7 @@ PrefabInstance:
     - target: {fileID: 1249310951068784434, guid: 670774c48bfd0a14bb625c922cc36d06,
         type: 3}
       propertyPath: FactionRelationsList.Array.size
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 1249310951068784434, guid: 670774c48bfd0a14bb625c922cc36d06,
         type: 3}
@@ -8765,6 +8878,11 @@ PrefabInstance:
         type: 3}
       propertyPath: FactionRelationsList.Array.data[2].FactionIndex
       value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1249310951068784434, guid: 670774c48bfd0a14bb625c922cc36d06,
+        type: 3}
+      propertyPath: FactionRelationsList.Array.data[3].FactionIndex
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 1249310951068784435, guid: 670774c48bfd0a14bb625c922cc36d06,
         type: 3}
@@ -8844,31 +8962,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Dark Elf Variant
       objectReference: {fileID: 0}
-    - target: {fileID: 863725422446755888, guid: 7850de7722ad3ca498c0026263106339,
-        type: 3}
-      propertyPath: TabNumber
-      value: 6
-      objectReference: {fileID: 0}
-    - target: {fileID: 863725422446755888, guid: 7850de7722ad3ca498c0026263106339,
-        type: 3}
-      propertyPath: AnimationTabNumber
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 863725422446755888, guid: 7850de7722ad3ca498c0026263106339,
-        type: 3}
-      propertyPath: MaxMeleeAttackSpeed
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 863725422446755888, guid: 7850de7722ad3ca498c0026263106339,
-        type: 3}
-      propertyPath: MinMeleeAttackSpeed
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 863725422446755899, guid: 7850de7722ad3ca498c0026263106339,
-        type: 3}
-      propertyPath: m_Controller
-      value: 
-      objectReference: {fileID: 9100000, guid: 3d5a0aba0c2c381479d2feeacdc285e0, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -8885,7 +8978,7 @@ PrefabInstance:
     - target: {fileID: 4661027618309813976, guid: 701cfc1486016154b928894bc8e36d97,
         type: 3}
       propertyPath: TabNumber
-      value: 6
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 4661027618309813976, guid: 701cfc1486016154b928894bc8e36d97,
         type: 3}
@@ -8946,7 +9039,7 @@ PrefabInstance:
     - target: {fileID: 4661027618309813976, guid: 701cfc1486016154b928894bc8e36d97,
         type: 3}
       propertyPath: FactionRelationsList.Array.size
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 4661027618309813976, guid: 701cfc1486016154b928894bc8e36d97,
         type: 3}
@@ -8957,6 +9050,11 @@ PrefabInstance:
         type: 3}
       propertyPath: FactionRelationsList.Array.data[2].FactionIndex
       value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4661027618309813976, guid: 701cfc1486016154b928894bc8e36d97,
+        type: 3}
+      propertyPath: FactionRelationsList.Array.data[3].FactionIndex
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 4661027618309813991, guid: 701cfc1486016154b928894bc8e36d97,
         type: 3}
@@ -9104,7 +9202,7 @@ PrefabInstance:
     - target: {fileID: 1574823194475659849, guid: 73829799853accc46af38bf3b92cbbf8,
         type: 3}
       propertyPath: TabNumber
-      value: 6
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 1574823194475659849, guid: 73829799853accc46af38bf3b92cbbf8,
         type: 3}
@@ -9160,7 +9258,7 @@ PrefabInstance:
     - target: {fileID: 1574823194475659849, guid: 73829799853accc46af38bf3b92cbbf8,
         type: 3}
       propertyPath: FactionRelationsList.Array.size
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 1574823194475659849, guid: 73829799853accc46af38bf3b92cbbf8,
         type: 3}
@@ -9171,6 +9269,11 @@ PrefabInstance:
         type: 3}
       propertyPath: FactionRelationsList.Array.data[2].FactionIndex
       value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1574823194475659849, guid: 73829799853accc46af38bf3b92cbbf8,
+        type: 3}
+      propertyPath: FactionRelationsList.Array.data[3].FactionIndex
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
