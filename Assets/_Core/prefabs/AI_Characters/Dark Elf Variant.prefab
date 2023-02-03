@@ -2764,6 +2764,8 @@ MonoBehaviour:
     RelationTypeRef: 0
   - FactionIndex: 9
     RelationTypeRef: 0
+  - FactionIndex: 10
+    RelationTypeRef: 0
   PlayerFaction:
   - PlayerTag: Player
     RelationTypeRef: 0
@@ -2960,11 +2962,11 @@ MonoBehaviour:
   CurrentDamageAmount: 5
   DamageAmountRun: 5
   WanderRadius: 25
-  TabNumber: 2
+  TabNumber: 4
   TemperamentTabNumber: 2
   DetectionTagsTabNumber: 1
   AnimationTabNumber: 0
-  SoundTabNumber: 0
+  SoundTabNumber: 1
   MovementTabNumber: 1
   WeaponTypeTabNumber: 0
   WeaponTypeCombatTabNumber: 0
@@ -3222,8 +3224,16 @@ MonoBehaviour:
   DeathSounds: []
   FootStepSounds: []
   BlockingSounds: []
-  ImpactSounds: []
-  CriticalHitSounds: []
+  ImpactSounds:
+  - {fileID: 8300000, guid: a726e50fd1b8e5d4d9224d6415722fe9, type: 3}
+  - {fileID: 8300000, guid: 665a0fcb03c104c46a59aa4149375012, type: 3}
+  - {fileID: 8300000, guid: cad2aaa93bcb9004191f3721c4f558fd, type: 3}
+  - {fileID: 8300000, guid: 89837be0511f17547bb0a8ca2cf8a6aa, type: 3}
+  - {fileID: 8300000, guid: ab4bab60b8427eb4098e017fa576b8fa, type: 3}
+  - {fileID: 8300000, guid: 7b2bc68343ab57e4fbdbda301cce263f, type: 3}
+  - {fileID: 8300000, guid: 083744b5eb24f2e42a6b9bbcc826dcf8, type: 3}
+  CriticalHitSounds:
+  - {fileID: 8300000, guid: 8ba1ce15e8593064aa781b941381f053, type: 3}
   AIFactionsList: 
   TargetTagsIndex: 0
   BloodPosOffset: {x: 0, y: 0, z: 0}

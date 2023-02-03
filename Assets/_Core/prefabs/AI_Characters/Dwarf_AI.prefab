@@ -723,7 +723,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1570690821188616514}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -27.951645, y: 0.20000076, z: -29.92}
   m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
   m_ConstrainProportionsScale: 0
@@ -741,7 +741,7 @@ Transform:
   - {fileID: 1574574268699353074}
   - {fileID: 1575107800342812434}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1574823194475659849
 MonoBehaviour:
@@ -783,7 +783,7 @@ MonoBehaviour:
   MeleeAttacks:
   - AttackAnimaition: 0
     MinDamage: 2
-    MaxDamage: 4
+    MaxDamage: 5
     AttackOdds: 1
     AttackImpactEffect: {fileID: 0}
   MeleeAttacksListIndex: 0
@@ -1042,6 +1042,12 @@ MonoBehaviour:
     RelationTypeRef: 0
   - FactionIndex: 6
     RelationTypeRef: 0
+  - FactionIndex: 8
+    RelationTypeRef: 0
+  - FactionIndex: 9
+    RelationTypeRef: 0
+  - FactionIndex: 10
+    RelationTypeRef: 0
   PlayerFaction:
   - PlayerTag: Player
     RelationTypeRef: 0
@@ -1137,7 +1143,7 @@ MonoBehaviour:
   Emote8Animation: {fileID: 0}
   Emote9Animation: {fileID: 0}
   Emote10Animation: {fileID: 0}
-  CombatIdleAnimation: {fileID: -6206981513316247533, guid: c346a9e2503cda64ba4698db6aa5e707,
+  CombatIdleAnimation: {fileID: 7831638795069683802, guid: 248146b68218df34c9ed1a14ba7a443b,
     type: 3}
   CombatWalkLeftAnimation: {fileID: -4202689071170738779, guid: eee239821c2dee4429fa8125a1fd6023,
     type: 3}
@@ -1238,11 +1244,11 @@ MonoBehaviour:
   CurrentDamageAmount: 5
   DamageAmountRun: 5
   WanderRadius: 25
-  TabNumber: 2
-  TemperamentTabNumber: 5
+  TabNumber: 4
+  TemperamentTabNumber: 2
   DetectionTagsTabNumber: 1
   AnimationTabNumber: 0
-  SoundTabNumber: 0
+  SoundTabNumber: 1
   MovementTabNumber: 1
   WeaponTypeTabNumber: 0
   WeaponTypeCombatTabNumber: 0
@@ -1251,7 +1257,7 @@ MonoBehaviour:
   RunAttackAnimationNumber: 1
   IdleAnimationNumber: 1
   CombatTabNumber: 0
-  FactionsAndTagTabNumber: 0
+  FactionsAndTagTabNumber: 1
   EventTabNumber: 0
   MinimumWaitTime: 3
   MaximumWaitTime: 6
@@ -1276,10 +1282,10 @@ MonoBehaviour:
   AngleNeededToTurn: 10
   AngleNeededToTurnRunning: 30
   TooCloseDistance: 1
-  MeleeTooCloseDistance: 1
+  MeleeTooCloseDistance: 0.5
   RangedTooCloseDistance: 5
   AttackDistance: 2.5
-  MeleeAttackDistance: 2.5
+  MeleeAttackDistance: 1.5
   RangedAttackDistance: 25
   RunAttackDistance: 3
   CautiousSeconds: 8
@@ -1500,8 +1506,16 @@ MonoBehaviour:
   DeathSounds: []
   FootStepSounds: []
   BlockingSounds: []
-  ImpactSounds: []
-  CriticalHitSounds: []
+  ImpactSounds:
+  - {fileID: 8300000, guid: a726e50fd1b8e5d4d9224d6415722fe9, type: 3}
+  - {fileID: 8300000, guid: 665a0fcb03c104c46a59aa4149375012, type: 3}
+  - {fileID: 8300000, guid: cad2aaa93bcb9004191f3721c4f558fd, type: 3}
+  - {fileID: 8300000, guid: 89837be0511f17547bb0a8ca2cf8a6aa, type: 3}
+  - {fileID: 8300000, guid: ab4bab60b8427eb4098e017fa576b8fa, type: 3}
+  - {fileID: 8300000, guid: 7b2bc68343ab57e4fbdbda301cce263f, type: 3}
+  - {fileID: 8300000, guid: 083744b5eb24f2e42a6b9bbcc826dcf8, type: 3}
+  CriticalHitSounds:
+  - {fileID: 8300000, guid: 8ba1ce15e8593064aa781b941381f053, type: 3}
   AIFactionsList: 
   TargetTagsIndex: 0
   BloodPosOffset: {x: 0, y: 0, z: 0}
@@ -1565,7 +1579,7 @@ MonoBehaviour:
   NonCombatAILayerIndex: 2
   DetectionLayerMask:
     serializedVersion: 2
-    m_Bits: 1015
+    m_Bits: 2039
   ObstructionDetectionLayerMask:
     serializedVersion: 2
     m_Bits: 4
@@ -1594,7 +1608,7 @@ Animator:
   m_GameObject: {fileID: 1570690821188616514}
   m_Enabled: 1
   m_Avatar: {fileID: 9000000, guid: a50cd06a0668d1a418d586a2944e3ed5, type: 3}
-  m_Controller: {fileID: 9100000, guid: 4857b98728688544a98a6939593b15c7, type: 2}
+  m_Controller: {fileID: 9100000, guid: e63d2d06652791c44ad4932e90002515, type: 2}
   m_CullingMode: 1
   m_UpdateMode: 0
   m_ApplyRootMotion: 1
