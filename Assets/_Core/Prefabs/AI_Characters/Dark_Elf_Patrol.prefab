@@ -2958,7 +2958,7 @@ MonoBehaviour:
   ObstructionDetectionUpdateTimer: 0
   CurrentHealth: 0
   StartingHealth: 20
-  DetectionRadius: 18
+  DetectionRadius: 7
   CurrentDamageAmount: 5
   DamageAmountRun: 5
   WanderRadius: 25

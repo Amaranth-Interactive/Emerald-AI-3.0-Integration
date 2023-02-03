@@ -123,6 +123,28 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &4111722 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4790603395101582246, guid: fed18210abfeb2744bf62fcec8760c5a,
+    type: 3}
+  m_PrefabInstance: {fileID: 1015814395}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &4111724
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4111722}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 37f5b09f8aa8e3f428c1a14f46ddb731, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  characterToSpawn: {fileID: 1570690821188616514, guid: d9aa0a65e219c7c4bb8e97d303d54323,
+    type: 3}
+  time: 0
+  cooldownDuration: 10
 --- !u!1001 &5803739
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1717,15 +1739,15 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 330585543}
-  m_LocalRotation: {x: 0.5, y: 0, z: 0, w: 0.8660254}
-  m_LocalPosition: {x: 0, y: 8.47, z: -8.16}
+  m_LocalRotation: {x: 0.47182643, y: -0.2865992, z: 0.16546799, w: 0.81722766}
+  m_LocalPosition: {x: 28.49, y: 33.64, z: -41.72}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1325074797}
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 60, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 60, y: -38.651, z: 0}
 --- !u!114 &330585547
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5298,6 +5320,14 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 2012234143}
+    - targetCorrespondingSourceObject: {fileID: 4790603394212981475, guid: fed18210abfeb2744bf62fcec8760c5a,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1015814398}
+    - targetCorrespondingSourceObject: {fileID: 4790603395101582246, guid: fed18210abfeb2744bf62fcec8760c5a,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 4111724}
   m_SourcePrefab: {fileID: 100100000, guid: fed18210abfeb2744bf62fcec8760c5a, type: 3}
 --- !u!4 &1015814396 stripped
 Transform:
@@ -5305,6 +5335,28 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1015814395}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1015814397 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4790603394212981475, guid: fed18210abfeb2744bf62fcec8760c5a,
+    type: 3}
+  m_PrefabInstance: {fileID: 1015814395}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1015814398
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1015814397}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 37f5b09f8aa8e3f428c1a14f46ddb731, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  characterToSpawn: {fileID: 6224426683408189775, guid: 5fd35e3118b05d04a8c37de899639feb,
+    type: 3}
+  time: 0
+  cooldownDuration: 10
 --- !u!1001 &1048997237
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5893,7 +5945,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1246474556}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -16.6, y: 0, z: -40.6}
+  m_LocalPosition: {x: 28.55, y: 0, z: -30.21}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
