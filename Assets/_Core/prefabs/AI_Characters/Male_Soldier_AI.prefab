@@ -3971,7 +3971,7 @@ MonoBehaviour:
   CurrentDamageAmount: 5
   DamageAmountRun: 5
   WanderRadius: 25
-  TabNumber: 4
+  TabNumber: 2
   TemperamentTabNumber: 3
   DetectionTagsTabNumber: 1
   AnimationTabNumber: 0

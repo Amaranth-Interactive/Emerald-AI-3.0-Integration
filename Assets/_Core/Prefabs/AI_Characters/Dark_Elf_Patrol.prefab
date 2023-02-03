@@ -2429,7 +2429,7 @@ GameObject:
   - component: {fileID: 863725422446755897}
   - component: {fileID: 863725422446755896}
   m_Layer: 0
-  m_Name: Dark Elf Variant
+  m_Name: Dark_Elf_Patrol
   m_TagString: Emerald AI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2963,8 +2963,8 @@ MonoBehaviour:
   DamageAmountRun: 5
   WanderRadius: 25
   TabNumber: 2
-  TemperamentTabNumber: 2
-  DetectionTagsTabNumber: 1
+  TemperamentTabNumber: 3
+  DetectionTagsTabNumber: 0
   AnimationTabNumber: 0
   SoundTabNumber: 1
   MovementTabNumber: 1
@@ -3127,8 +3127,8 @@ MonoBehaviour:
   CombatStateRef: 0
   CombatTypeRef: 0
   RefillHealthType: 2
-  WanderTypeRef: 0
-  WaypointTypeRef: 0
+  WanderTypeRef: 1
+  WaypointTypeRef: 1
   AlignmentQualityRef: 1
   ObstructionDetectionQualityRef: 1
   ActionAnimationRef: 2
@@ -3283,7 +3283,12 @@ MonoBehaviour:
   AILevelUIOutlineSize: {x: 0.35, y: -0.35}
   AILevelUIOutlineColor: {r: 0, g: 0, b: 0, a: 1}
   HealthBarCanvasRef: {fileID: 0}
-  WaypointsList: []
+  WaypointsList:
+  - {x: -16, y: 0, z: -40}
+  - {x: 0, y: 0, z: -12}
+  - {x: -20, y: 0, z: -12}
+  - {x: -40, y: 0, z: -12}
+  - {x: -16, y: 0, z: -40}
   WaypointIndex: 0
   WaypointHolder: {fileID: 0}
   CollidersInArea: []
@@ -3292,7 +3297,7 @@ MonoBehaviour:
   StartingTag: 
   StartingLayer: 0
   m_AnimationProfile: {fileID: 0}
-  m_WaypointObject: {fileID: 0}
+  m_WaypointObject: {fileID: 11400000, guid: 48e9f094d13b2e14f875feaaaad43673, type: 2}
   FinalImpactSound: 0
   NonCombatAILayerIndex: 2
   DetectionLayerMask:

@@ -32,7 +32,8 @@ public class SpawnAI : MonoBehaviour
     void SpawnAIChar()
     {
         //Spawn our AI using the Emerald Object Pool system
-        Vector3 SpawnPosition = transform.position + transform.forward * 5 + (Random.insideUnitSphere * 2);
+        //Optional on transform position example: + transform.forward * 5
+        Vector3 SpawnPosition = transform.position  + (Random.insideUnitSphere * 2);
         SpawnPosition.y = transform.position.y;
         GameObject SpawnedAI = EmeraldAIObjectPool.Spawn(characterToSpawn, SpawnPosition, Quaternion.identity);
     }

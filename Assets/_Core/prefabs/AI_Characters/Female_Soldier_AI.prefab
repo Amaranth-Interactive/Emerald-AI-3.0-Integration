@@ -755,11 +755,11 @@ MonoBehaviour:
   CurrentDamageAmount: 5
   DamageAmountRun: 5
   WanderRadius: 25
-  TabNumber: 4
+  TabNumber: 2
   TemperamentTabNumber: 2
   DetectionTagsTabNumber: 1
   AnimationTabNumber: 0
-  SoundTabNumber: 1
+  SoundTabNumber: 0
   MovementTabNumber: 1
   WeaponTypeTabNumber: 0
   WeaponTypeCombatTabNumber: 0

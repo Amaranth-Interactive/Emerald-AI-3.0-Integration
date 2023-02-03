@@ -816,7 +816,7 @@ MonoBehaviour:
   IsRunAttack: 0
   RandomDirection: 0
   TargetInView: 0
-  CurrentFaction: 9
+  CurrentFaction: 8
   RelationTypeRef: 0
   FactionRelations: 
   FactionRelationsList:
@@ -826,7 +826,7 @@ MonoBehaviour:
     RelationTypeRef: 0
   - FactionIndex: 7
     RelationTypeRef: 0
-  - FactionIndex: 8
+  - FactionIndex: 9
     RelationTypeRef: 0
   - FactionIndex: 10
     RelationTypeRef: 0
@@ -1024,7 +1024,7 @@ MonoBehaviour:
   CurrentDamageAmount: 5
   DamageAmountRun: 5
   WanderRadius: 25
-  TabNumber: 4
+  TabNumber: 2
   TemperamentTabNumber: 3
   DetectionTagsTabNumber: 1
   AnimationTabNumber: 2
