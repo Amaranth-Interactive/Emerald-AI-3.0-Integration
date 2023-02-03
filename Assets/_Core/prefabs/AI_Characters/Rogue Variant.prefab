@@ -25,14 +25,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7178092218918929192}
-  m_LocalRotation: {x: -0.6885676, y: -0.0000015627594, z: -0.0000011157246, w: -0.7251722}
+  m_LocalRotation: {x: -0.5855512, y: -0.0000018943097, z: -0.0000013150271, w: -0.8106355}
   m_LocalPosition: {x: 12, y: 4.6, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 7178092219019999077}
   m_RootOrder: -1
-  m_LocalEulerAnglesHint: {x: -272.966, y: 0.004, z: 0.004}
+  m_LocalEulerAnglesHint: {x: -288.316, y: 0.001, z: 0.001}
 --- !u!33 &7178092218917937622
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -523,7 +523,7 @@ Transform:
   - {fileID: 7178092219019992665}
   - {fileID: 7178092219020037849}
   m_Father: {fileID: 0}
-  m_RootOrder: 0
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &7178092219012339586
 MonoBehaviour:
@@ -828,6 +828,8 @@ MonoBehaviour:
     RelationTypeRef: 0
   - FactionIndex: 8
     RelationTypeRef: 0
+  - FactionIndex: 10
+    RelationTypeRef: 0
   PlayerFaction:
   - PlayerTag: Player
     RelationTypeRef: 0
@@ -1009,7 +1011,7 @@ MonoBehaviour:
   AnimationListsChanged: 0
   FilePath: Assets/_Core/Animations/Rogue_OverrideController.overrideController
   MissingRuntimeController: 0
-  EmeraldTag: Respawn
+  EmeraldTag: Emerald AI
   UITag: Player
   RagdollTag: Untagged
   AnimationsUpdated: 0
@@ -1026,7 +1028,7 @@ MonoBehaviour:
   TemperamentTabNumber: 3
   DetectionTagsTabNumber: 1
   AnimationTabNumber: 2
-  SoundTabNumber: 0
+  SoundTabNumber: 1
   MovementTabNumber: 1
   WeaponTypeTabNumber: 0
   WeaponTypeCombatTabNumber: 0
@@ -1284,8 +1286,16 @@ MonoBehaviour:
   DeathSounds: []
   FootStepSounds: []
   BlockingSounds: []
-  ImpactSounds: []
-  CriticalHitSounds: []
+  ImpactSounds:
+  - {fileID: 8300000, guid: a726e50fd1b8e5d4d9224d6415722fe9, type: 3}
+  - {fileID: 8300000, guid: 665a0fcb03c104c46a59aa4149375012, type: 3}
+  - {fileID: 8300000, guid: cad2aaa93bcb9004191f3721c4f558fd, type: 3}
+  - {fileID: 8300000, guid: 89837be0511f17547bb0a8ca2cf8a6aa, type: 3}
+  - {fileID: 8300000, guid: ab4bab60b8427eb4098e017fa576b8fa, type: 3}
+  - {fileID: 8300000, guid: 7b2bc68343ab57e4fbdbda301cce263f, type: 3}
+  - {fileID: 8300000, guid: 083744b5eb24f2e42a6b9bbcc826dcf8, type: 3}
+  CriticalHitSounds:
+  - {fileID: 8300000, guid: 8ba1ce15e8593064aa781b941381f053, type: 3}
   AIFactionsList: 
   TargetTagsIndex: 0
   BloodPosOffset: {x: 0, y: 0, z: 0}
