@@ -46,3 +46,12 @@ We integrated our Hexagonia base map with Emerald AI and now the soliders obey t
 https://user-images.githubusercontent.com/3580918/215926214-90e21d2e-d858-41b5-832b-d8a2b72ec400.mp4
 
 
+### **4 February 2023**
+
+The Emerald AI basic integration & patrolling on Hexagonia map is done. We now have 6 unique soldier types with own animations, who patrol their "zone" and engage with enemies that get within their detection range (usually players on left and right). 
+
+We tried to capture both the birds eye view action as well as a close up by recording the Unity window:
+
+https://www.youtube.com/watch?v=yH042BskNw4
+
+Next steps will involve despawning soldiers after death after a predetermined time, as well as hooking into OnDeath events to tally scores for each player in this simulation of AI wars.
