@@ -3983,7 +3983,7 @@ MonoBehaviour:
   CurrentDamageAmount: 5
   DamageAmountRun: 5
   WanderRadius: 25
-  TabNumber: 1
+  TabNumber: 5
   TemperamentTabNumber: 5
   DetectionTagsTabNumber: 0
   AnimationTabNumber: 0
@@ -4305,11 +4305,11 @@ MonoBehaviour:
   AILevelUIOutlineColor: {r: 0, g: 0, b: 0, a: 1}
   HealthBarCanvasRef: {fileID: 0}
   WaypointsList:
-  - {x: -42, y: 0, z: -6.5}
-  - {x: -9, y: 0, z: -6.5}
-  - {x: -19.5, y: 0, z: 11.5}
-  - {x: -28.5, y: 0, z: 27}
-  - {x: -42, y: 0, z: -6.5}
+  - {x: 16.5, y: 0, z: 37}
+  - {x: 0, y: 0, z: 8.5}
+  - {x: 21, y: 0, z: 8.5}
+  - {x: 39, y: 0, z: 8.5}
+  - {x: 16.5, y: 0, z: 37}
   WaypointIndex: 0
   WaypointHolder: {fileID: 0}
   CollidersInArea: []
@@ -4318,7 +4318,7 @@ MonoBehaviour:
   StartingTag: 
   StartingLayer: 0
   m_AnimationProfile: {fileID: 0}
-  m_WaypointObject: {fileID: 11400000, guid: fc4178773ee1f3a4b8cfafdc227bae41, type: 2}
+  m_WaypointObject: {fileID: 11400000, guid: 4643f7ce9336c074ab3aa2a455be9794, type: 2}
   FinalImpactSound: 0
   NonCombatAILayerIndex: 2
   DetectionLayerMask:
