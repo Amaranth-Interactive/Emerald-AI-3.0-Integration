@@ -51,6 +51,9 @@ https://user-images.githubusercontent.com/3580918/215926214-90e21d2e-d858-41b5-8
 The Emerald AI basic integration & patrolling on Hexagonia map is done. We now have 6 unique soldier types with own animations, who patrol their "zone" and engage with enemies that get within their detection range (usually players on left and right). 
 
 We tried to capture both the birds eye view action as well as a close up by recording the Unity window:
+![Hexagonia 6Party GIF](https://user-images.githubusercontent.com/3580918/216798841-d0e9e01f-4d93-42b7-8818-d9c29deb07c4.gif)
+
+High res, longer recording can be found below: 
 
 https://www.youtube.com/watch?v=yH042BskNw4
 
