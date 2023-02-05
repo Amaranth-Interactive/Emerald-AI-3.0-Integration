@@ -35,6 +35,6 @@ public class SpawnAI : MonoBehaviour
         //Optional on transform position example: + transform.forward * 5
         Vector3 SpawnPosition = transform.position  + (Random.insideUnitSphere * 2);
         SpawnPosition.y = transform.position.y;
-        GameObject SpawnedAI = EmeraldAIObjectPool.Spawn(characterToSpawn, SpawnPosition, Quaternion.identity);
+        GameObject SpawnedAI = EmeraldAIObjectPool.SpawnEffect(characterToSpawn, SpawnPosition, Quaternion.identity, 80);
     }
 }
