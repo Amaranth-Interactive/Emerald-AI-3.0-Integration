@@ -69,3 +69,14 @@ Meanwhile, we were able to implement the non-AI target feature which we will nee
 https://user-images.githubusercontent.com/3580918/217333866-6a8f131c-8247-499c-82df-64eff4e88369.mp4
 
 Took us a while to figure out that the non-AI target requires a collider (not written in tutorial!) but now it is working as intended!
+
+UPDATE 2: 
+
+The score keeping system is fixed, now each kill, regardless of how many AI-agents were fighting, counts as 1 score:
+
+https://user-images.githubusercontent.com/3580918/217378557-3cb4f49a-20fb-4ab1-aa07-5b286ad2a3a7.mp4
+
+
+
+
+
