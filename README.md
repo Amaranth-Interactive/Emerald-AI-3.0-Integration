@@ -58,3 +58,14 @@ High res, longer recording can be found below:
 https://www.youtube.com/watch?v=yH042BskNw4
 
 Next steps will involve despawning soldiers after death after a predetermined time, as well as hooking into OnDeath events to tally scores for each player in this simulation of AI wars.
+
+### **7 February 2023**
+
+We were able to get the score calculation & displaying, however the OnKillTarget event is adding score for every attacker on a single target - i.e. if 3 soldiers are attacking an enemy soldier and one of them kills the enemy, all 3 get scores! Emerald AI support team sent us a fix which we should hopefully implement and test.
+
+Meanwhile, we were able to implement the non-AI target feature which we will need for Hexagonia tiles to be destroyed by soldiers.
+
+
+https://user-images.githubusercontent.com/3580918/217333866-6a8f131c-8247-499c-82df-64eff4e88369.mp4
+
+Took us a while to figure out that the non-AI target requires a collider (not written in tutorial!) but now it is working as intended!
