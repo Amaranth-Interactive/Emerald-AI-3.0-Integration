@@ -709,6 +709,7 @@ GameObject:
   - component: {fileID: 1574823194475659855}
   - component: {fileID: 1574823194475659840}
   - component: {fileID: 1574823194475659841}
+  - component: {fileID: -5011639710422428424}
   m_Layer: 0
   m_Name: Dwarf_Patrol
   m_TagString: Emerald AI
@@ -979,19 +980,7 @@ MonoBehaviour:
   WeaponTrail: {fileID: 0}
   DeathEvent:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
   DamageEvent:
     m_PersistentCalls:
       m_Calls: []
@@ -1027,7 +1016,19 @@ MonoBehaviour:
       m_Calls: []
   OnKillTargetEvent:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: -5011639710422428424}
+        m_TargetAssemblyTypeName: DwarfOnKill, Assembly-CSharp
+        m_MethodName: OnKillDwarf
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   OnHealEvent:
     m_PersistentCalls:
       m_Calls: []
@@ -1252,11 +1253,11 @@ MonoBehaviour:
   ObstructionDetectionUpdateTimer: 0
   CurrentHealth: 0
   StartingHealth: 20
-  DetectionRadius: 7
+  DetectionRadius: 9
   CurrentDamageAmount: 5
   DamageAmountRun: 5
   WanderRadius: 25
-  TabNumber: 1
+  TabNumber: 2
   TemperamentTabNumber: 5
   DetectionTagsTabNumber: 0
   AnimationTabNumber: 0
@@ -1422,7 +1423,7 @@ MonoBehaviour:
   CombatTypeRef: 0
   RefillHealthType: 2
   WanderTypeRef: 1
-  WaypointTypeRef: 1
+  WaypointTypeRef: 2
   AlignmentQualityRef: 1
   ObstructionDetectionQualityRef: 1
   ActionAnimationRef: 2
@@ -1578,11 +1579,9 @@ MonoBehaviour:
   AILevelUIOutlineColor: {r: 0, g: 0, b: 0, a: 1}
   HealthBarCanvasRef: {fileID: 0}
   WaypointsList:
-  - {x: 41.5, y: 0, z: 4}
-  - {x: 9, y: 0, z: 3.5}
-  - {x: 20, y: 0, z: -14}
-  - {x: 28.5, y: 0, z: -30}
-  - {x: 41.5, y: 0, z: 4}
+  - {x: 6.75, y: 0, z: 2.43}
+  - {x: 21, y: 0, z: -22}
+  - {x: 28.5, y: 0, z: 6.5}
   WaypointIndex: 0
   WaypointHolder: {fileID: 0}
   CollidersInArea: []
@@ -1591,7 +1590,7 @@ MonoBehaviour:
   StartingTag: 
   StartingLayer: 0
   m_AnimationProfile: {fileID: 0}
-  m_WaypointObject: {fileID: 11400000, guid: fac4975a01a82b047b21cddfe468a865, type: 2}
+  m_WaypointObject: {fileID: 11400000, guid: f2da1b9f470e27b42b66904a0ab97757, type: 2}
   FinalImpactSound: 0
   NonCombatAILayerIndex: 2
   DetectionLayerMask:
@@ -1856,6 +1855,18 @@ MonoBehaviour:
   DeathDelay: 0
   BoneObjects: 
   BoneTransformList: []
+--- !u!114 &-5011639710422428424
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1570690821188616514}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd0a7ad9761dabd4095a11dd0174cea0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1570698052886272784
 GameObject:
   m_ObjectHideFlags: 0

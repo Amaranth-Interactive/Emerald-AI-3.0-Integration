@@ -8,6 +8,7 @@ TagManager:
   - AI_Male
   - AI_Dwarf
   - Emerald AI
+  - Non-AI Target
   layers:
   - Default
   - TransparentFX

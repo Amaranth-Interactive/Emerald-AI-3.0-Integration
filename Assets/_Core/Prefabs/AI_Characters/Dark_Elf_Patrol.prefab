@@ -2971,13 +2971,13 @@ MonoBehaviour:
   ObstructionDetectionUpdateTimer: 0
   CurrentHealth: 0
   StartingHealth: 20
-  DetectionRadius: 7
+  DetectionRadius: 9
   CurrentDamageAmount: 5
   DamageAmountRun: 5
   WanderRadius: 25
-  TabNumber: 1
+  TabNumber: 2
   TemperamentTabNumber: 5
-  DetectionTagsTabNumber: 0
+  DetectionTagsTabNumber: 1
   AnimationTabNumber: 0
   SoundTabNumber: 1
   MovementTabNumber: 1
@@ -2988,7 +2988,7 @@ MonoBehaviour:
   RunAttackAnimationNumber: 1
   IdleAnimationNumber: 1
   CombatTabNumber: 0
-  FactionsAndTagTabNumber: 1
+  FactionsAndTagTabNumber: 0
   EventTabNumber: 1
   MinimumWaitTime: 3
   MaximumWaitTime: 6
@@ -3141,7 +3141,7 @@ MonoBehaviour:
   CombatTypeRef: 0
   RefillHealthType: 2
   WanderTypeRef: 1
-  WaypointTypeRef: 1
+  WaypointTypeRef: 2
   AlignmentQualityRef: 1
   ObstructionDetectionQualityRef: 1
   ActionAnimationRef: 2
@@ -3182,7 +3182,7 @@ MonoBehaviour:
   UseCustomFontAILevel: 0
   AlignAIWithGroundRef: 0
   CreateHealthBarsRef: 0
-  UseNonAITagRef: 0
+  UseNonAITagRef: 1
   UseMagicEffectsPackRef: 0
   RandomizeDamageRef: 1
   CustomizeHealthBarRef: 0
@@ -3205,7 +3205,7 @@ MonoBehaviour:
   CurrentFollowTarget: {fileID: 0}
   PlayerTag: Player
   FollowTag: Player
-  NonAITag: Water
+  NonAITag: Non-AI Target
   ReturningToStartInProgress: 0
   AIReachedDestination: 0
   AIAgentActive: 0
@@ -3297,11 +3297,9 @@ MonoBehaviour:
   AILevelUIOutlineColor: {r: 0, g: 0, b: 0, a: 1}
   HealthBarCanvasRef: {fileID: 0}
   WaypointsList:
-  - {x: -16, y: 0, z: -40}
-  - {x: 0, y: 0, z: -12}
-  - {x: -20, y: 0, z: -12}
-  - {x: -40, y: 0, z: -12}
-  - {x: -16, y: 0, z: -40}
+  - {x: 0, y: 0, z: -9}
+  - {x: -28.5, y: 0, z: -9.5}
+  - {x: -7.5, y: 0, z: -30}
   WaypointIndex: 0
   WaypointHolder: {fileID: 0}
   CollidersInArea: []
@@ -3310,7 +3308,7 @@ MonoBehaviour:
   StartingTag: 
   StartingLayer: 0
   m_AnimationProfile: {fileID: 0}
-  m_WaypointObject: {fileID: 11400000, guid: 48e9f094d13b2e14f875feaaaad43673, type: 2}
+  m_WaypointObject: {fileID: 11400000, guid: 6a6fcaa07b5ab294bb73c0c16dd62fd8, type: 2}
   FinalImpactSound: 0
   NonCombatAILayerIndex: 2
   DetectionLayerMask:
@@ -3587,7 +3585,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c975187c1b330ca44a97595cfe0cc056, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scoreManager: {fileID: 0}
 --- !u!1 &768916047268298429
 GameObject:
   m_ObjectHideFlags: 0
