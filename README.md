@@ -77,6 +77,17 @@ The score keeping system is fixed, now each kill, regardless of how many AI-agen
 https://user-images.githubusercontent.com/3580918/217378557-3cb4f49a-20fb-4ab1-aa07-5b286ad2a3a7.mp4
 
 
+### **8 February 2023**
+
+Instead of displaying the score in the top right corner "the old school way", we thought about novel ways to utilize XR for a different way to inform the players about the current score. One idea was to utilize "flags" and use the flag color/height as a quick way to inform who is leading and who is behind. 
+
+Here is how it looks in practice:
+
+![hexagon flags](https://user-images.githubusercontent.com/3580918/217621833-6a4228d6-ae7e-44a6-982e-130cfa0869be.png)
+
+Adding score values to the Y scale value of the flag prefab gives the desired effect, however we will need to adjust the multiplier for something that is not as dramatic:
+
+https://user-images.githubusercontent.com/3580918/217623337-6fa4cee6-c234-4e3b-8432-fbb5ac00e459.mp4
 
 
 
