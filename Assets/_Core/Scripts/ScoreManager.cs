@@ -5,6 +5,7 @@ using TMPro;
 
 public class ScoreManager : MonoBehaviour
 {
+    // caches for displaying score on top right
     public ResourcesScriptableObject rSO;
     public TextMeshProUGUI player1;
     public TextMeshProUGUI player2;
@@ -13,6 +14,14 @@ public class ScoreManager : MonoBehaviour
     public TextMeshProUGUI player5;
     public TextMeshProUGUI player6;
 
+    // caches for flags
+    public GameObject flag1;
+    public GameObject flag2;
+    public GameObject flag3;
+    public GameObject flag4;
+    public GameObject flag5;
+    public GameObject flag6;
+    
     private void Start()
     {
         rSO.femaleFighterScore = 0;
@@ -21,47 +30,51 @@ public class ScoreManager : MonoBehaviour
         rSO.rogueScore = 0;
         rSO.darkElfScore = 0;
         rSO.orcScore = 0;
-        player1.text = "Player 1: " + rSO.femaleFighterScore;
-        player2.text = "Player 2: " + rSO.maleFighterScore;
-        player3.text = "Player 3: " + rSO.dwarfScore;
-        player4.text = "Player 4: " + rSO.rogueScore;
-        player5.text = "Player 5: " + rSO.darkElfScore;
-        player6.text = "Player 6: " + rSO.orcScore;        
-    }
-
-    public void AddKillScoreFemaleSoldier()
-    {
-        rSO.femaleFighterScore += 1;
-        player1.text = "Player 1: " + rSO.femaleFighterScore;
-    }
-
-    public void AddKillScoreMaleSoldier()
-    {
-        rSO.maleFighterScore += 1;
-        player2.text = "Player 2: " + rSO.maleFighterScore;
-    }
-
-    public void AddKillScoreDwarf()
-    {
-        rSO.dwarfScore += 1;
-        player3.text = "Player 3: " + rSO.dwarfScore;
-    }
-
-    public void AddKillScoreRogue()
-    {
-        rSO.rogueScore += 1;
-        player4.text = "Player 4: " + rSO.rogueScore;
+        player1.text = "Dark Elves: " + rSO.darkElfScore; 
+        player2.text = "Orcs: " + rSO.orcScore;  
+        player3.text = "Dwarves: " + rSO.dwarfScore;
+        player4.text = "Paladins: " + rSO.maleFighterScore; 
+        player5.text = "Rogues: " + rSO.rogueScore;
+        player6.text = "Amazons: " + rSO.femaleFighterScore;         
     }
 
     public void AddKillScoreDarkElf()
     {
         rSO.darkElfScore += 1;
-        player5.text = "Player 5: " + rSO.darkElfScore;
+        player1.text = "Dark Elves: " + rSO.darkElfScore;
+        flag1.transform.localScale += new Vector3(0, 0.1f, 0);
     }
-
     public void AddKillScoreOrc()
     {
         rSO.orcScore += 1;
-        player6.text = "Player 6: " + rSO.orcScore;
+        player2.text = "Orcs: " + rSO.orcScore;
+        flag2.transform.localScale += new Vector3(0, 0.1f, 0);
     }
+    public void AddKillScoreDwarf()
+    {
+        rSO.dwarfScore += 1;
+        player3.text = "Dwarves: " + rSO.dwarfScore;
+        flag3.transform.localScale += new Vector3(0, 0.1f, 0);
+    }
+    
+    public void AddKillScoreMaleSoldier()
+    {
+        rSO.maleFighterScore += 1;
+        player4.text = "Paladins: " + rSO.maleFighterScore;
+        flag4.transform.localScale += new Vector3(0, 0.1f, 0);
+    }
+
+    public void AddKillScoreRogue()
+    {
+        rSO.rogueScore += 1;
+        player5.text = "Rogues " + rSO.rogueScore;
+        flag5.transform.localScale += new Vector3(0, 0.1f, 0);
+    }
+    public void AddKillScoreFemaleSoldier()
+    {
+        rSO.femaleFighterScore += 1;
+        player6.text = "Amazons: " + rSO.femaleFighterScore;
+        flag6.transform.localScale += new Vector3(0, 0.1f, 0);
+    }
+
 }
